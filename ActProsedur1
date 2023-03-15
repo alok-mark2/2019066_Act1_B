@@ -34,10 +34,31 @@ int main() {
     return 0;
 }
 
+#include <iostream>
+using namespace std;
 
 
 
+// deklarasi prosedur
+void cek_lulus(int nilai) {
+  if (nilai >= 60) {
+    std::cout << "Selamat, Anda lulus!" << std::endl;
+  } else {
+    std::cout << "Maaf, Anda tidak lulus." << std::endl;
+  }
+}
 
+// program utama
+int main() {
+  int nilai;
+  std::cout << "Masukkan nilai Anda: ";
+  std::cin >> nilai;
+  cek_lulus(nilai);
+  return 0;
+}
+
+
+========================================================================================================================================================================================================
 
 //start
 |
