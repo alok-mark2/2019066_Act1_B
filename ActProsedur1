@@ -33,3 +33,47 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+//start
+|
+V
+input nilai
+|
+V
+prosedur cek_lulus(nilai)
+|
+V
+output hasil kelulusan
+|
+V
+end.//
+
+
+//Berikut adalah program untuk menentukan kelulusan siswa dengan menggunakan prosedur dan flowchart:
+
+Flowchart:
+
+lua
+
+start
+|
+V
+input nilai
+|
+V
+prosedur cek_lulus(nilai)
+|
+V
+output hasil kelulusan
+|
+V
+end
+
+Prosedur cek_lulus akan menerima satu parameter, yaitu nilai siswa, dan kemudian memeriksa apakah siswa tersebut lulus atau tidak//
+
+
